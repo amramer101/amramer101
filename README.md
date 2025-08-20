@@ -1,17 +1,13 @@
 # 👋 Hi, I'm Amr Medhat Amer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-amrmamer-blue?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/amrmamer)
-[![GitHub](https://img.shields.io/badge/GitHub-ammr102-black?logo=github\&logoColor=white)](https://github.com/ammr102)
-
----
-
 ## 🌟 About Me
 
-Certified **Cloud Engineer & Administrator** with hands-on experience in **AWS, Azure, and GCP**. I specialize in implementing, automating, and securing cloud infrastructure using **IaC (Terraform, Bicep, ARM)**, **DevOps principles**, and **CI/CD pipelines (GitHub Actions, Jenkins)** to build cost-efficient, high-availability solutions with strong focus on **IAM, cloud security, and operational excellence**.
+I am a **Junior Cloud Engineer & Administrator** passionate about **cloud computing, cybersecurity, and automation**. I specialize in **AWS, Azure, and GCP**, and I have hands-on experience in **infrastructure as code (Terraform, Bicep, ARM), DevOps practices, CI/CD pipelines**, and **cloud security & governance**. I design and implement **secure, scalable, high-performance cloud solutions** optimized for operational efficiency.
 
-* 💻 Working on cloud infrastructure and serverless solutions
-* 🎯 Passionate about cloud security, performance optimization, and automation
-* 🌐 Continuously exploring emerging cloud technologies and best practices
+* 💻 Building serverless and multi-cloud solutions
+* 🔒 Focused on cloud security, identity management, and compliance
+* 🚀 Continuous learning and exploring innovative cloud technologies
+* 🌐 Experienced in automation, monitoring, and cost optimization
 
 ---
 
@@ -19,11 +15,11 @@ Certified **Cloud Engineer & Administrator** with hands-on experience in **AWS, 
 
 ### Cloud Platforms
 
-![AWS](https://img.shields.io/badge/AWS-EC2-orange?logo=amazonaws\&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure\&logoColor=white) ![GCP](https://img.shields.io/badge/GCP-Cloud-red?logo=googlecloud\&logoColor=white)
+AWS, Azure, Google Cloud Platform (GCP)
 
 ### Security & Identity
 
-IAM, RBAC, Microsoft Entra ID, AWS Cognito, Policy Management, Secret Management (KMS, Key Vault), Zero Trust Principles
+IAM, RBAC, Microsoft Entra ID, AWS Cognito, Secret Management (KMS, Key Vault), Zero Trust Principles
 
 ### Automation & DevOps
 
@@ -35,7 +31,7 @@ Azure Monitor, AWS CloudWatch, Azure Cost Management, AWS Cost Explorer, Backup 
 
 ### Networking
 
-Azure Virtual Network (VNet), AWS VPC, VPN Gateway, Load Balancer, TCP/IP, DNS, Routing, Firewalls, NSGs, Private Endpoints
+Azure VNet, AWS VPC, VPN Gateway, Load Balancer, TCP/IP, DNS, Routing, Firewalls, NSGs, Private Endpoints
 
 ---
 
@@ -43,46 +39,49 @@ Azure Virtual Network (VNet), AWS VPC, VPN Gateway, Load Balancer, TCP/IP, DNS, 
 
 ### 🌐 Azure FinOps Sentinel
 
-**Description:** Automated serverless FinOps solution reducing idle Azure resource spend.
-**Stack:** Azure Functions, Logic Apps, Blob Storage, Terraform, Python
-**Highlights:** 90% idle resource cost reduction, real-time cost governance, automated tagging, alerting, and reporting.
+**Automated Cloud Cost Governance**
 
-![Workflow](https://github.com/ammr102/Azure-FinOps-Sentinel/blob/main/bd681a09-3742-41d1-8cff-6ef3b302d898.png)
-![Alerts](https://github.com/ammr102/Azure-FinOps-Sentinel/blob/main/Screenshot%202025-06-10%20210452.png)
-[GitHub Repo](https://github.com/ammr102/Azure-FinOps-Sentinel)
+* Automated serverless FinOps solution that significantly reduces idle resource usage.
+* Implements real-time tagging and reporting with automated alerts.
+* Technology stack: Azure Functions, Logic Apps, Blob Storage, Terraform, Python.
+
+![Workflow](https://raw.githubusercontent.com/ammr102/Azure-FinOps-Sentinel/main/bd681a09-3742-41d1-8cff-6ef3b302d898.png)
+![Alerts](https://raw.githubusercontent.com/ammr102/Azure-FinOps-Sentinel/main/Screenshot%202025-06-10%20210452.png)
 
 ---
 
 ### 🌐 CloudDrop - Secure AWS File Sharing
 
-**Description:** Secure, encrypted file-sharing platform with high availability.
-**Stack:** AWS EC2, S3, IAM, CloudWatch, Terraform, Python (Flask)
-**Highlights:** 99.5% uptime, IAM least-privilege enforcement, automated provisioning and backup, audit logging.
+**Encrypted File Sharing Platform**
 
-![Architecture](https://github.com/ammr102/AWS/blob/main/1745514427629.jpeg)
-[GitHub Repo](https://github.com/ammr102/AWS)
+* Built a highly secure and reliable file-sharing web application.
+* Implemented full end-to-end encryption, centralized IAM policies, and automated provisioning.
+* Technology stack: AWS EC2, S3, IAM, CloudWatch, Terraform, Python (Flask).
+
+![CloudDrop Architecture](https://raw.githubusercontent.com/ammr102/AWS/main/1745514427629.jpeg)
 
 ---
 
 ### 🌐 HelloWorld - High-Availability Web Architecture
 
-**Description:** Resilient Azure VM infrastructure for internal applications.
-**Stack:** Azure VMs, VNets, Load Balancer, Bastion
-**Highlights:** 99.9% uptime, segmented network layers, automated deployment scripts, disaster recovery documentation.
+**Resilient Azure VM Infrastructure**
 
-![Architecture](https://github.com/ammr102/HelloWorld/blob/main/architecture.png)
-[GitHub Repo](https://github.com/ammr102/HelloWorld)
+* Designed Azure VM architecture with VNets, Load Balancer, and Bastion to achieve 99.9% uptime.
+* Implemented segmented network layers, automated deployment, and disaster recovery scripts.
+
+![Architecture](https://raw.githubusercontent.com/ammr102/HelloWorld/main/architecture.png)
 
 ---
 
 ### 🌐 NexusFlow - AI Supply Chain Platform
 
-**Description:** AI-powered supply chain solution with predictive analytics.
-**Stack:** Huawei ECS, RDS, Object Storage, ModelArts, API Gateway, WAF, Python, Docker
-**Highlights:** 99.95% uptime for 1,000+ users, 30% improvement in prediction accuracy, latency reduction via optimized batch pipelines.
+**AI-Powered Predictive Analytics**
 
-![Architecture](https://github.com/ammr102/NexusFlow/blob/main/1735316588109.jpeg)
-[GitHub Repo](https://github.com/ammr102/NexusFlow)
+* Led a cross-functional team to deploy a supply chain solution with AI forecasting.
+* Achieved 99.95% uptime for 1,000+ users and improved analytics performance by 30%.
+* Technology stack: Huawei ECS, RDS, Object Storage, ModelArts, API Gateway, WAF, Python, Docker.
+
+![NexusFlow Architecture](https://raw.githubusercontent.com/ammr102/NexusFlow/main/1735316588109.jpeg)
 
 ---
 
@@ -100,13 +99,13 @@ Azure Virtual Network (VNet), AWS VPC, VPN Gateway, Load Balancer, TCP/IP, DNS, 
 ## 🏅 Leadership & Awards
 
 * Team Leader & Cloud Architect – Huawei Developer Competition North Africa (Top 8/650+)
-* Led NexusFlow project to deliver high uptime, AI/ML optimization, and operational excellence.
+* Led NexusFlow project achieving high uptime and performance improvements with AI/ML
 
 ---
 
 ## 📬 Contact
 
 * Email: [amrmedhatamer1@gmail.com](mailto:amrmedhatamer1@gmail.com)
-* LinkedIn: [Amr Medhat Amer](https://www.linkedin.com/in/amrmamer)
 * Mobile: +20-1050901746
-* Portfolio: \[Your Portfolio Link Here]
+* Location: Egypt
+* Languages: Arabic (Native), English (B2)
