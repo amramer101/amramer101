@@ -46,7 +46,7 @@
 - **🔐 Security:** 80% incident risk reduction through passwordless authentication
 - **🔧 Tech Stack:** Azure Container Apps, Front Door, GitHub Actions, Entra ID
 
-[![View Project](https://img.shields.io/badge/View_Project-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/Vulnera)
+[![View Project](https://img.shields.io/badge/View_Project-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/Vulnera-Azure)
 
 ---
 
@@ -58,19 +58,7 @@
 - **⏱️ Efficiency:** 6-hour automated scans with 50+ waste candidates identified weekly
 - **🔧 Tech Stack:** Azure Functions, Logic Apps, Terraform, Blob Storage, Python
 
-[![View Project](https://img.shields.io/badge/View_Project-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/FinOps-Sentinel)
-
----
-
-### 🌐 **NexusFlow - AI-Powered Supply Chain Platform** 🏆
-*Award-winning enterprise platform - Top 1% in Huawei Competition (8/650+ teams)*
-
-- **🎖️ Achievement:** Led 4-member team to top 1% ranking in North Africa competition
-- **📈 Performance:** 99.95% availability serving 100+ enterprise users
-- **🤖 AI Impact:** 25% stockout reduction through optimized ML forecasting
-- **🔧 Tech Stack:** Huawei Cloud ECS, RDS, API Gateway, ModelArts, Autoscaling
-
-[![View Project](https://img.shields.io/badge/View_Project-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/NexusFlow)
+[![View Project](https://img.shields.io/badge/View_Project-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/Azure-FinOps-Sentinel)
 
 ---
 
@@ -82,7 +70,20 @@
 - **☁️ Infrastructure:** Terraform-provisioned AWS architecture with automated monitoring
 - **🔧 Tech Stack:** AWS EC2, S3, VPC, Terraform, CloudWatch, Boto3
 
-[![View Project](https://img.shields.io/badge/View_Project-FF9500?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/CloudDrop)
+[![View Project](https://img.shields.io/badge/View_Project-FF9500?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/-CloudDrop)
+
+---
+
+### 🌐 **NexusFlow - AI-Powered Supply Chain Platform** 🏆
+*Award-winning enterprise platform - Top 1% in Huawei Competition (8/650+ teams)*
+
+- **🎖️ Achievement:** Led 4-member team to top 1% ranking in North Africa competition
+- **📈 Performance:** 99.95% availability serving 100+ enterprise users
+- **🤖 AI Impact:** 25% stockout reduction through optimized ML forecasting
+- **🔧 Tech Stack:** Huawei Cloud ECS, RDS, API Gateway, ModelArts, Autoscaling
+
+[![View Project](https://img.shields.io/badge/View_Project-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101/NexusFlow-AI-Powered-Supply-Chain-Transformation)
+
 
 ---
 
