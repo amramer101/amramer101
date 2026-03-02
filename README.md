@@ -1,312 +1,226 @@
-# Amr Medhat Amer
+<div align="center">
 
-**Cloud DevOps Engineer | Azure Certified Administrator | AWS Solutions Architect**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D4FF,100:7B2FBE&height=200&section=header&text=Amr%20Medhat%20Amer&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=DevSecOps%20Engineer%20%7C%20Cloud%20Infrastructure%20%7C%20Multi-Cloud&descAlignY=58&descColor=00D4FF" />
 
-Alexandria, Egypt | amrmedhatamer1@gmail.com | +20-1050901746
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Shifting+Security+Left+%E2%80%94+Every+Single+Pipeline;Zero+Plaintext+Credentials.+Ever.;IaC+%7C+CI%2FCD+%7C+DevSecOps+%7C+Multi-Cloud;Building+Infrastructure+That+Proves+Itself)](https://git.io/typing-svg)
 
-[LinkedIn](https://linkedin.com/in/amrmamer) | [Portfolio](https://wh0ami.netlify.app) | [GitHub](https://github.com/amramer101)
+<br/>
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amrmamer)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=00D4FF)](https://wh0ami.netlify.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amramer101)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amr.m.amer11@gmail.com)
 
-## Professional Summary
-
-Certified Cloud Engineer and DevOps Specialist with proven expertise in implementing, automating, and securing cloud infrastructure across Microsoft Azure, Amazon Web Services, and Google Cloud Platform. Specializing in Infrastructure as Code with Terraform, CI/CD automation with Jenkins and GitHub Actions, and enterprise cloud security implementations. Currently pursuing Bachelor of Computer Science with Cybersecurity specialization at Alexandria University, maintaining top 10% academic standing with CGPA 3.2/4.0.
-
-Selected from over 10,000 global applicants for Google Cloud Facilitator Program, demonstrating exceptional technical proficiency through 100+ hands-on labs and 50+ official skill badges. Focused on delivering cost-efficient, high-availability solutions that drive business transformation through cloud innovation.
-
----
-
-## Education
-
-**Bachelor of Computer Science - Cybersecurity Specialization**  
-Alexandria University, Egypt  
-October 2023 - June 2027 (Expected)  
-CGPA: 3.2/4.0 (Top 10%)  
-Relevant Coursework: Cryptography, Operating Systems, Cloud Computing, Machine Learning, Network Security, Data Structures
+</div>
 
 ---
 
-## Professional Experience
+## Who I Am
 
-### Cloud Engineer Trainee
-**Google Cloud Facilitator & Innovator Program** | Remote  
-July 2025 - Present
+I'm a **DevSecOps Engineer** specializing in production-grade cloud infrastructure where **security isn't a checkbox — it's the pipeline itself.**
 
-- Selected from 10,000+ global applicants for prestigious Google Cloud Facilitator Program
-- Completed 100+ hands-on labs demonstrating expert-level proficiency in cloud technologies
-- Earned 50+ official Google Cloud skill badges across Compute Engine, BigQuery, and Identity Access Management
-- Ranked as top performer and awarded Google Cloud credits for exceptional performance
-- Mastered advanced cloud concepts including multi-cloud architecture, serverless computing, and containerization
+My philosophy is simple: every artifact that reaches production should have passed automated SAST, SCA, and IaC security gates. No exceptions. No shortcuts.
 
-### Cloud Engineer Intern
-**Verizon** | Remote  
-July 2024 - August 2024
+I don't just deploy to the cloud — I migrate architectures through it, phase by phase, proving every decision with working infrastructure and real numbers.
 
-- Configured secure VPN infrastructure implementing industry best practices, improving security benchmarks by 45%
-- Developed Python automation scripts for security audit processes, eliminating 5 hours of manual work weekly
-- Implemented robust data-in-transit protection protocols ensuring compliance with enterprise security standards
-- Collaborated with cross-functional teams to optimize cloud resource utilization and cost management
+```
+"A pipeline without security gates isn't CI/CD — it's just fast shipping of problems."
+```
+
+### Recognition
+
+- 🏆 **1st Place** — Huawei Cloud Spark Infinity 2025, North Africa · 389 teams · First Egyptian team to win
+- 🥉 **Bronze Medal** — Huawei ICT Competition 2025-2026, Cloud Track · 3,146 participants nationally
+- 🎓 **Top 18%** — Aspire Leaders Program, Harvard Business School & Aspire Institute · 54,000+ applicants
+- 🏅 **Top 5 (1%)** — Huawei Developer Competition 2024, North Africa · 650+ teams
 
 ---
 
-## Technical Certifications
+## Flagship Project — Strata-Ops 🔴 Active Development
 
-### Active Certifications
-- Microsoft Certified: Azure Administrator Associate (AZ-104)
-- Microsoft Certified: Azure Fundamentals (AZ-900)
-- Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)
-- ISC2 Certified in Cybersecurity (CC)
-- Microsoft Applied Skills: Secure Azure Storage Specialty
-- Microsoft Applied Skills: Secure Azure Networking Specialty
-- Microsoft Applied Skills: Identities with Microsoft Entra ID
+> *A complete, multi-phase DevSecOps migration of a production 5-tier Java application — from bare VMs to fully managed AWS PaaS — with security enforcement at every layer.*
 
-### In Progress
-- AWS Certified Solutions Architect Associate
+This isn't a tutorial clone. It's a real architecture that broke in real ways and got fixed with real solutions.
 
----
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     STRATA-OPS JOURNEY                          │
+├──────────────┬──────────────────────────────────────────────────┤
+│   Phase 1    │  Manual → Automated                              │
+│   ✅ Done     │  Vagrant + Bash · 60 min → 15 min               │
+├──────────────┼──────────────────────────────────────────────────┤
+│   Phase 2    │  AWS Lift & Shift + Full CI/CD                   │
+│   ✅ Done     │  Terraform · Jenkins JCasC · SonarQube           │
+│              │  Nexus · OWASP SCA · tfsec · SSM Secrets         │
+├──────────────┼──────────────────────────────────────────────────┤
+│   Phase 3    │  AWS Cloud Native + IaC Security                 │
+│   ✅ Done     │  RDS · ElastiCache · MQ · Beanstalk              │
+│              │  CodePipeline · 45 min → 10 min deploy           │
+├──────────────┼──────────────────────────────────────────────────┤
+│   Phase 4    │  Containerization + Image Security               │
+│   🔴 Active  │  Docker · Trivy · Extending DevSecOps coverage   │
+└──────────────┴──────────────────────────────────────────────────┘
+```
 
-## Featured Projects
+**Security decisions built into the architecture:**
 
-### Bravo6 - Cloud-Native Threat Detection & Penetration Testing Simulation
-**September 2025 - Present**
+| Decision | Why It Matters |
+|---|---|
+| **AWS SSM Parameter Store** for all secrets | Zero plaintext credentials in code, pipeline, or config — ever |
+| **OWASP Dependency-Check** as hard pipeline blocker | `failedTotalCritical: 0` — Critical CVE = build dies |
+| **SonarQube Quality Gate** as hard pipeline blocker | Bad code never reaches Nexus |
+| **tfsec in CodeBuild** | IaC misconfigurations blocked before deployment |
+| **Jenkins JCasC** | Entire Jenkins instance provisioned from code — zero manual UI |
+| **Route53 Private DNS** | Backend services never internet-exposed, DNS-abstracted |
+| **Least-privilege IAM** scoped to `/strata-ops/*` | EC2 can't touch anything outside its namespace |
+| **Terraform remote state on S3** | Infrastructure state is versioned and team-shareable |
 
-Architected serverless security intelligence engine on AWS for automated web asset reconnaissance and vulnerability assessment, achieving 75% reduction in scan latency.
+**Real problems solved (not from a tutorial):**
+- Diagnosed `Tomcat 10` package non-existence on Ubuntu 22.04 → migrated to Tomcat 9
+- Resolved `Nexus 3.78.0` EULA API lockout blocking all automation → patched via `nexus.onboarding.enabled=false` pre-boot flag
+- Fixed JCasC `UnknownAttributesException` for `dependencyCheck` tool configuration
 
-**Challenge:** Dynamic cloud environments require efficient external web asset reconnaissance and vulnerability assessment solutions that avoid high latency, resource inefficiencies, and fragmented security workflows while maintaining comprehensive attack surface visibility without excessive costs.
-
-**Solution Implementation:**
-- Architected high-throughput parallel processing system using AWS Step Functions orchestrating concurrent Lambda executions for security checks including SSL validation, DNS analysis, and HTTP headers assessment
-- Implemented asynchronous state management with DynamoDB decoupling API responses from backend workflows, enabling scalable handling of long-running tasks
-- Built cost-optimized serverless core integrating Lambda, API Gateway, and Step Functions within AWS Free Tier limits
-- Developed responsive frontend with automated CI/CD via AWS Amplify ensuring continuous deployment
-- Enhanced security and observability applying AWS WAF protections, fine-grained IAM roles following Principle of Least Privilege, CloudWatch monitoring, and automated report generation with secure S3 storage and SES notifications
-
-**Technical Stack:** AWS Lambda, Step Functions, API Gateway, DynamoDB, S3, SES, WAF, Amplify, Python, JavaScript, Infrastructure as Code
-
-**Business Impact:**
-- Achieved 75% reduction in scan latency with sub-minute response times for multi-domain assessments
-- Eliminated idle infrastructure costs through pure serverless design
-- Created reusable DevSecOps framework scaling for future security tools
-- Reduced operational overhead by 80% through workflow automation
-
-[View Project](https://github.com/amramer101/Bravo6)
-
----
-
-### Vulnera - Serverless Dependency Checker Toolkit with Code Editor Extension
-**August 2025 - Present**
-
-Architected serverless supply chain security platform on Microsoft Azure for vulnerability aggregation and remediation, reducing release cycles by 85%.
-
-**Challenge:** Modern software development faces critical supply chain vulnerabilities from dependencies, resulting in delayed remediation, increased production risks, and inefficient manual checks slowing developer workflows.
-
-**Solution Implementation:**
-- Designed fully serverless architecture routing traffic through Azure Front Door for global load balancing and WAF protection
-- Integrated API Management for authentication and rate limiting with frontend on Azure App Service and Rust backend on Container Apps
-- Implemented GitHub Actions CI/CD pipelines for automated Docker builds, security scans, ACR pushes, and zero-downtime deployments
-- Enforced passwordless infrastructure using Entra Managed Identity with RBAC to Azure Key Vault
-- Aggregated vulnerability data from OSV, NVD, and GHSA sources generating actionable reports and corrected manifests
-
-**Technical Stack:** Microsoft Azure (Front Door, API Management, App Service, Container Apps, Key Vault, ACR), GitHub Actions, Rust, Docker, CI/CD
-
-**Business Impact:**
-- Reduced release cycles from 24 hours to under 15 minutes
-- Decreased manual effort by 85% accelerating developer velocity
-- Achieved 40% cost reduction via serverless pay-per-use model
-- Maintained 99.9% uptime demonstrating enterprise-grade reliability
-
-[View Project](https://github.com/amramer101/Vulnera-Azure)
+[![Strata-Ops](https://img.shields.io/badge/View_Strata--Ops-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://github.com/amramer101/Strata-Ops)
 
 ---
 
-### FinOps Sentinel - Cloud Cost Governance Platform
-**June 2025 - July 2025**
+## Other Projects
 
-Deployed serverless FinOps governance solution on Azure using Functions and Logic Apps, reducing idle resource spend by 98%.
+<table>
+<tr>
+<td width="50%">
 
-**Challenge:** Cloud environments accumulate under-utilized resources including idle VMs, unattached disks, and unused IPs, generating unnecessary costs without automated detection and remediation tools.
+### Conduit — AWS ECS GitOps CI/CD Engine
+`GitHub Actions` `ECS Fargate` `ECR` `RDS Aurora` `SonarCloud` `ALB`
 
-**Solution Implementation:**
-- Developed Python-based Azure Function scanning resources every 6 hours for under-utilization patterns
-- Applied intelligent governance tags like "FinOps-Status" for resource identification and tracking
-- Implemented automated HTML reporting pipeline archiving to Azure Blob Storage with real-time stakeholder notifications
-- Utilized Managed Identity for zero-credential drift ensuring security and compliance
-- Integrated Terraform for infrastructure provisioning and Azure CLI for configuration management
+Production-grade GitOps pipeline for a Java Spring social platform.
 
-**Technical Stack:** Microsoft Azure (Functions, Logic Apps, Blob Storage, File Storage), Python, Terraform, Azure CLI, Shared Access Signatures
+- 3-stage pipeline: Test → Build → Deploy, fully automated
+- SonarCloud SAST blocking on quality gate failure
+- Docker images versioned by GitHub run number in ECR
+- Zero-downtime rolling updates on ECS Fargate
+- RDS Aurora in private subnets, security-group restricted
 
-**Business Impact:**
-- Reduced idle-resource spend by 98% in pilot environments
-- Identified and remediated 50+ waste candidates in first week
-- Saved $2,000+ monthly through automated governance
-- Eliminated hours of manual oversight improving operational efficiency
+[![Conduit](https://img.shields.io/badge/View_Project-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/amramer101/hprofile-actions)
 
-[View Project](https://github.com/amramer101/Azure-FinOps-Sentinel)
+</td>
+<td width="50%">
 
----
+### Vulnera — Cloud-Native Security on Huawei Cloud
+`Kubernetes CCE` `CodeArts CI/CD` `ModelArts` `L7 Load Balancing`
 
-### CloudDrop - End-to-End Encrypted File Exchange Platform
-**April 2025 - May 2025**
+DevSecOps platform on Huawei Cloud for supply chain vulnerability aggregation.
 
-Architected scalable file-sharing platform on AWS with EC2 and S3, achieving 99.5% uptime and 20% latency reduction through Terraform automation.
+- 3-node Kubernetes cluster with L7 Load Balancing
+- 85% faster release cycles via automated pipeline
+- ModelArts AI threat analysis with RDS PostgreSQL persistence
+- IAM access controls cutting operational costs by 40%
+- 🏆 Winning project — Spark Infinity Competition
 
-**Challenge:** Building secure, scalable file-sharing applications requires handling durable storage, encryption, and high availability while minimizing latency in cloud environments prone to configuration drift.
+[![Vulnera](https://img.shields.io/badge/View_Project-FF0000?style=flat-square&logo=huawei&logoColor=white)](https://github.com/amramer101/Vulnera-Azure)
 
-**Solution Implementation:**
-- Provisioned EC2 instances in public-subnet VPC integrated with Amazon S3 for cost-efficient durable storage
-- Developed Python automation scripts with Boto3 enforcing fine-grained IAM roles and policies
-- Implemented end-to-end encryption for file uploads and downloads ensuring data security
-- Tuned EC2 instance types, security groups, and network configurations through comprehensive load testing
-- Automated full infrastructure lifecycle using Terraform ensuring consistent deployments
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-**Technical Stack:** AWS (EC2, S3, IAM, VPC, Security Groups), Python (Boto3), Terraform, Cloud Security
+### FinOps Sentinel — Serverless Cost Governance on Azure
+`Azure Functions` `Logic Apps` `Terraform` `Managed Identity` `Python`
 
-**Business Impact:**
-- Delivered 99.5% uptime enhancing user experience
-- Achieved 20% latency reduction improving file transfer speeds
-- Eliminated manual configuration errors through automation
-- Created scalable solution suitable for enterprise deployments
+Automated FinOps governance engine that hunts and eliminates cloud waste.
 
-[View Project](https://github.com/amramer101/-CloudDrop)
+- Scans every 6 hours for idle VMs, unattached disks, orphaned IPs
+- $2,000+/month waste identified across 50+ flagged resources
+- 100% cost attribution via Terraform tagging policies
+- Zero-credential drift via Managed Identity (no service principals)
+- Automated HTML reports delivered via Logic Apps in under 3 minutes
 
+[![FinOps](https://img.shields.io/badge/View_Project-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/amramer101/Azure-FinOps-Sentinel)
 
-### NexusFlow - Intelligent Supply Chain Optimizer
-**September 2024 - December 2024**
+</td>
+<td width="50%">
 
-**Award: Top 1% (8th place out of 650+ teams) - Huawei Developer Competition North Africa**
+### Bravo6 — Serverless Threat Recon Engine on AWS
+`Lambda` `Step Functions` `DynamoDB` `API Gateway` `WAF` `Amplify`
 
-Led team of four architecting AI-driven supply chain platform on Huawei Cloud with ECS and ModelArts, reducing stockouts by 25% and operational costs by 20%.
+High-throughput parallel security recon system built on AWS serverless.
 
-**Challenge:** Supply chain management in AI-integrated systems requires reliable, secure, and efficient infrastructure handling real-time data and forecasting while managing stock imbalances and compliance risks.
+- Step Functions orchestrating concurrent Lambda executions
+- SSL validation, DNS analysis, HTTP header assessment in parallel
+- 75% reduction in scan latency vs sequential approach
+- WAF + fine-grained IAM + CloudWatch observability
+- Entire infrastructure within AWS Free Tier limits
 
-**Solution Implementation:**
-- Architected multi-layered platform on Huawei Cloud (ECS, RDS, ModelArts, OBS, WAF) aligned with Well-Architected Framework
-- Built real-time data ingestion pipelines via API Gateway integrated with AI forecasting models
-- Scaled for 1,000+ concurrent users with autoscaling policies and dynamic provisioning
-- Established comprehensive security with WAF rules, OBS encryption, and Role-Based Access Control
-- Containerized services with Docker and automated deployments via CI/CD pipelines
+[![Bravo6](https://img.shields.io/badge/View_Project-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/amramer101/Bravo6)
 
-**Technical Stack:** Huawei Cloud (ECS, RDS, OBS, ModelArts, API Gateway, WAF), Python, Docker, CI/CD Pipelines, Well-Architected Framework
-
-**Business Impact:**
-- Reduced stockouts and overstock by 25% improving supply chain efficiency
-- Cut operational costs by 20% through optimized resource scaling
-- Achieved 99.95% availability serving 100+ enterprise users
-- Enhanced decision-making velocity through AI-powered insights
-
-[View Project](https://github.com/amramer101/NexusFlow-AI-Powered-Supply-Chain-Transformation)
+</td>
+</tr>
+</table>
 
 ---
 
-### WhoamI - Personal Portfolio Website
-**March 2024 - June 2024**
+## Tech Stack
 
-Developed responsive portfolio site with HTML5, CSS3, and JavaScript, increasing average session duration by 63% through Google Analytics optimization.
-
-**Challenge:** Building personal portfolios requires responsive design, performance optimization, and analytics integration to engage visitors effectively while maintaining fast load times and accessibility.
-
-**Solution Implementation:**
-- Created mobile-first website using HTML5, CSS3 (Flexbox, Media Queries), and vanilla JavaScript
-- Ensured cross-browser compatibility and WCAG compliance for accessibility
-- Integrated Google Analytics with custom events and goals tracking user interactions
-- Optimized performance with semantic HTML, asset minification, and lazy loading
-- Established automated deployment pipeline using GitHub Pages and custom scripts
-
-**Technical Stack:** HTML5, CSS3, JavaScript, Google Analytics, Responsive Design, GitHub Pages
-
-**Business Impact:**
-- Increased average session duration by 63% improving user engagement
-- Reduced page load times by 25% enhancing performance
-- Achieved consistent user experience across all devices
-- Automated deployment streamlining content updates
-
-[View Project](https://github.com/amramer101/WhoamI-v2)
-
----
-
-## Technical Skills
+<div align="center">
 
 ### Cloud Platforms
-- **Microsoft Azure:** Virtual Machines, App Services, Functions, Container Apps, Storage Accounts, Key Vault, Virtual Networks, Load Balancer, Front Door, API Management, Entra ID, Monitor, Logic Apps
-- **Amazon Web Services:** EC2, Lambda, S3, DynamoDB, API Gateway, Step Functions, CloudWatch, IAM, VPC, Route 53, CloudFormation, SES, WAF
-- **Google Cloud Platform:** Compute Engine, BigQuery, Cloud Storage, IAM, Cloud Functions, Cloud Run
-- **Huawei Cloud:** ECS, RDS, OBS, ModelArts, API Gateway, WAF
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Huawei Cloud](https://img.shields.io/badge/Huawei_Cloud-FF0000?style=flat-square&logo=huawei&logoColor=white)
 
-### DevOps & Infrastructure
-- **Infrastructure as Code:** Terraform, Bicep, CloudFormation, ARM Templates
-- **Containerization:** Docker, Kubernetes, Container Registries (ACR, ECR)
-- **CI/CD:** GitHub Actions, Jenkins, Azure DevOps, GitLab CI
-- **Configuration Management:** Ansible, PowerShell DSC
-- **Version Control:** Git, GitHub, GitLab, Azure Repos
+### Infrastructure as Code & Automation
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 
-### Security & Identity
-- **Identity Management:** Microsoft Entra ID, AWS IAM, Azure RBAC, AWS Cognito
-- **Secrets Management:** Azure Key Vault, AWS KMS, HashiCorp Vault
-- **Security Frameworks:** Zero Trust Architecture, Principle of Least Privilege, Defense in Depth
+### CI/CD & DevSecOps
+![Jenkins](https://img.shields.io/badge/Jenkins_JCasC-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![AWS CodePipeline](https://img.shields.io/badge/CodePipeline-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP_DC-000000?style=flat-square&logo=owasp&logoColor=white)
+![tfsec](https://img.shields.io/badge/tfsec-326CE5?style=flat-square&logo=terraform&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white)
 
-### Programming & Automation
-- **Languages:** Python, Bash, PowerShell, JavaScript, Rust (basics)
-- **Automation:** Azure CLI, AWS CLI, Boto3, Azure SDK
-- **Operating Systems:** Linux Administration (Ubuntu, CentOS), Windows Server
-- **Databases:** MySQL, PostgreSQL, DynamoDB, Azure Cosmos DB
+### Containers & Orchestration
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![ECS Fargate](https://img.shields.io/badge/ECS_Fargate-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
 
-### Monitoring & Cost Management
-- **Monitoring:** Azure Monitor, AWS CloudWatch, Application Insights, Log Analytics
-- **Cost Optimization:** Azure Cost Management, AWS Cost Explorer, FinOps principles
-- **Backup & DR:** Azure Backup, AWS Backup, Disaster Recovery Planning
+### Observability & Security
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![AWS SSM](https://img.shields.io/badge/AWS_SSM-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Key Vault](https://img.shields.io/badge/Key_Vault-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
 
----
-
-## Leadership & Awards
-
-### Team Leader & Cloud Architect
-**Huawei Developer Competition North Africa 2024**  
-October 2024 - December 2024
-
-- Spearheaded 4-member team designing and delivering NexusFlow intelligent supply chain platform
-- Achieved top 1% ranking (8th place out of 650+ teams) in prestigious regional competition
-- Presented solution to panel including CEO of Huawei North Africa and VP executives
-- Recognized for innovation in cloud architecture and AI integration
-- Demonstrated exceptional leadership managing cross-functional team under tight deadlines
-
-### Google Cloud Program Recognition
-**July 2025 - Present**
-
-- Selected from 10,000+ global applicants demonstrating exceptional technical aptitude
-- Achieved top performer status earning Google Cloud credits
-- Completed 100+ hands-on labs with expert-level proficiency
-- Earned 50+ skill badges across multiple cloud domains
-
-### Academic Excellence
-**Alexandria University**  
-2023 - Present
-
-- Maintained top 10% academic standing with CGPA 3.2/4.0
-- Active member of university cybersecurity club
-- Participated in multiple hackathons and technical competitions
+</div>
 
 ---
 
-## Languages
+## Certifications
 
-- **Arabic:** Native proficiency
-- **English:** Advanced proficiency (C1 level)
+<div align="center">
+
+| | Certification | Issuer | Year |
+|---|---|---|---|
+| ☁️ | AWS Certified Solutions Architect – Associate (SAA-C03) | Amazon Web Services | 2026 |
+| 🔵 | Azure Administrator Associate (AZ-104) | Microsoft | 2025 |
+| 🔒 | Security, Compliance, and Identity (SC-900) | Microsoft | 2025 |
+| 🛡️ | Junior Cybersecurity Analyst – CyberOps | Cisco | 2024 |
+| 🔐 | Certified in Cybersecurity (CC) | ISC2 | 2024 |
+| ⚙️ | DevOps Path: Jenkins · Ansible · Terraform · Docker · K8s | KodeKloud | 2024 |
+
+</div>
 
 ---
 
-## Contact Information
+<div align="center">
 
-**Email:** amrmedhatamer1@gmail.com  
-**Phone:** +20-1050901746  
-**Location:** Alexandria, Egypt  
-**LinkedIn:** [linkedin.com/in/amrmamer](https://linkedin.com/in/amrmamer)  
-**GitHub:** [github.com/amramer101](https://github.com/amramer101)  
-**Portfolio:** [wh0ami.netlify.app](https://wh0ami.netlify.app)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,50:00D4FF,100:0D1117&height=120&section=footer"/>
 
----
-
-## Current Focus & Interests
-
-Currently focused on advancing expertise in serverless architectures, cloud-native security solutions, and FinOps practices. Actively pursuing AWS Solutions Architect Associate certification while contributing to open-source DevSecOps projects. Passionate about leveraging cloud technologies to solve complex business challenges and drive digital transformation initiatives.
-
-Open to opportunities in Cloud Architecture, DevOps Engineering, Site Reliability Engineering, and Cloud Security roles where I can apply my technical expertise and leadership skills to deliver innovative solutions.
+</div>
