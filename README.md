@@ -1,5 +1,6 @@
 # Amr Medhat Amer
-### DevSecOps Engineer · Cloud Infrastructure · Multi-Cloud
+
+**DevSecOps Engineer · Cloud Infrastructure · Multi-Cloud**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/amrmamer)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=netlify&logoColor=white)](https://wh0ami.netlify.app)
@@ -8,9 +9,11 @@
 
 ---
 
-I build production-grade cloud infrastructure where **security isn't a checkbox — it's the pipeline itself.**
+I build cloud infrastructure that ships fast, costs less, and is engineered to resist breach at every layer.
 
-Every artifact that reaches production has passed automated SAST, SCA, and IaC security gates. No exceptions. No shortcuts. I don't just deploy to the cloud — I architect through it, phase by phase, proving every decision with working infrastructure and real numbers.
+Third-year CS student at Alexandria University (Class of 2027) — and I've spent those years building production-grade systems across AWS, Azure, GCP, and Huawei Cloud in environments where cost, security, and uptime actually matter.
+
+In December 2025, my team became the **first Egyptian team in history** to win Huawei Cloud Spark Infinity North Africa — competing against 389 teams and formally recognised by Egypt's Ministry of Higher Education. Two months later, I ranked in the **top 0.1%** of 3,146 students at the Huawei ICT Competition Africa.
 
 > *"A pipeline without security gates isn't CI/CD — it's just fast shipping of problems."*
 
@@ -21,114 +24,130 @@ Every artifact that reaches production has passed automated SAST, SCA, and IaC s
 | | |
 |---|---|
 | 🏆 **1st Place** | Huawei Cloud Spark Infinity 2025, North Africa · 389 teams · First Egyptian team to win |
-| 🥉 **Bronze Medal** | Huawei ICT Competition 2025-2026, Cloud Track · 3,146 participants nationally |
-| 🎓 **Top 18%** | Aspire Leaders Program, Harvard Business School & Aspire Institute · 54,000+ applicants |
+| 🥉 **Bronze Medal** | Huawei ICT Competition 2025–2026, Cloud Track · Top 0.1% of 3,146 participants nationally |
 | 🏅 **Top 5 (1%)** | Huawei Developer Competition 2024, North Africa · 650+ teams |
 
 ---
 
-## Flagship Project — Strata-Ops ✅ Complete
+## Projects
 
-> *A production-grade, multi-phase DevSecOps migration of a 5-tier Java application — from bare VMs to fully managed AWS cloud-native — with security enforcement at every layer.*
+### 1. Strata-Ops — 6-Phase Cloud-Native DevSecOps Migration (AWS)
 
-**[→ View Strata-Ops on GitHub](https://github.com/amramer101/Strata-Ops)**
+**[→ View on GitHub](https://github.com/amramer101/Strata-Ops)** &nbsp; ![Status](https://img.shields.io/badge/Status-Phase_6_In_Progress-yellow?style=flat-square)
 
-This is not a tutorial clone. It's a real architecture that broke in real ways and got fixed with real solutions.
+Production-grade migration of a 5-tier Java application — from bare VMs to fully managed AWS cloud-native — with security enforcement at every layer. 300+ Terraform resources across 3 AZs. 3 independent CI/CD pipelines. Every security tool configured as a **hard blocker** — failures abort, never warn.
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                        STRATA-OPS JOURNEY                        │
-├──────────────┬───────────────────────────────────────────────────┤
-│   Phase 1    │  Manual → Automated                               │
-│   ✅ Done     │  Vagrant + Bash · 60 min → 15 min                │
-├──────────────┼───────────────────────────────────────────────────┤
-│   Phase 2    │  AWS Lift & Shift + Full CI/CD                    │
-│   ✅ Done     │  Terraform · Jenkins JCasC · SonarQube            │
-│              │  Nexus · OWASP SCA · tfsec · SSM Secrets          │
-├──────────────┼───────────────────────────────────────────────────┤
-│   Phase 3    │  AWS Cloud-Native + IaC Security                  │
-│   ✅ Done     │  RDS · ElastiCache · MQ · Beanstalk               │
-│              │  CodePipeline · TruffleHog · SonarCloud           │
-├──────────────┼───────────────────────────────────────────────────┤
-│   Phase 4.1  │  Containerization + Ansible Automation            │
-│   ✅ Done     │  Docker Compose · Ansible · EC2 Single Host       │
-├──────────────┼───────────────────────────────────────────────────┤
-│   Phase 4.2  │  ECS Fargate + GitOps + Full Observability        │
-│   ✅ Done     │  GitHub Actions · Trivy · Datadog APM             │
-│              │  Firelens · SARIF → GitHub Security · SSM         │
-└──────────────┴───────────────────────────────────────────────────┘
-```
+**Key Results:**
 
-**Architecture evolution at a glance:**
+| Metric | Before | After |
+|--------|--------|-------|
+| Infrastructure cost | $150/mo | $20/mo (87% reduction) |
+| Deployment time | 45 min | < 10 min |
+| EKS cluster setup | 40 min | 12 min (70% reduction) |
+| Hardcoded secrets | Present | Zero — SSM + External Secrets Operator |
+| Manual steps | 50+ | 0 |
 
-| Aspect | Phase 1 | Phase 2 | Phase 3 | Phase 4.1 | Phase 4.2 |
-|--------|---------|---------|---------|-----------|-----------|
-| Platform | VirtualBox | EC2 | Elastic Beanstalk | EC2 + Docker | ECS Fargate |
-| Database | Manual MySQL | EC2 MySQL | RDS MySQL | Docker MySQL | RDS MySQL |
-| Deployment | Manual SSH | Terraform | CodePipeline | Terraform + Ansible | GitHub Actions |
-| Security | None | Basic SGs | 3-Layer Scan | Basic SGs | Trivy + GHAS |
-| Observability | None | Prometheus + Grafana | CloudWatch | None | Datadog Full Stack |
-| Manual Steps | 50+ | 0 | 0 | 0 | 0 |
-| Cost/month | $0 | ~$70 | ~$170 | ~$20 | ~$178 |
+**Phase Progress:**
 
-**Security decisions built into the architecture:**
+| Phase | Focus | Platform | Status |
+|-------|-------|----------|--------|
+| 1 | Manual → Automated (Vagrant + Bash) | VirtualBox | ✅ Done |
+| 2 | AWS Lift & Shift · Jenkins JCasC · SonarQube · Nexus | EC2 + Terraform | ✅ Done |
+| 3 | Cloud-Native: RDS · ElastiCache · MQ · Beanstalk | CodePipeline | ✅ Done |
+| 4.1 | Containerization + Ansible Automation | Docker Compose + EC2 | ✅ Done |
+| 4.2 | ECS Fargate + GitOps + Datadog Full Stack | GitHub Actions | ✅ Done |
+| 5 | Amazon EKS + Helm + IRSA + ALB Ingress Controller | EKS | ✅ Done |
+| 6 | GitOps (ArgoCD) + Chaos Engineering + FinOps | EKS + ArgoCD | 🔄 Coming Soon |
 
-| Decision | Why It Matters |
-|---|---|
-| **AWS SSM Parameter Store** for all secrets | Zero plaintext credentials in code, pipeline, or config — ever |
-| **OWASP Dependency-Check** as hard pipeline blocker | `failedTotalCritical: 0` — Critical CVE = build dies |
-| **SonarQube Quality Gate** as hard pipeline blocker | Bad code never reaches Nexus |
-| **TruffleHog + tfsec** in CodeBuild | Secrets and IaC misconfigs blocked before deployment |
-| **Trivy** at 3 scan layers (FS + Config + Image) | CVE visibility at every stage, reported via SARIF to GitHub |
-| **Jenkins JCasC** | Entire Jenkins instance provisioned from code — zero manual UI |
-| **Route53 Private DNS** | Backend services never internet-exposed, DNS-abstracted |
-| **Least-privilege IAM** scoped to `/strata-ops/*` | EC2 can't touch anything outside its namespace |
-| **Datadog APM + Firelens sidecar** | Full traces, JVM metrics, and log routing from ECS containers |
+**Security gates built into every pipeline:**
 
-**Real problems solved (not from a tutorial):**
-- Diagnosed `Tomcat 10` package non-existence on Ubuntu 22.04 → migrated to Tomcat 9
-- Resolved Nexus 3.78.0 EULA API lockout blocking all automation → patched via `nexus.onboarding.enabled=false` pre-boot flag
-- Fixed JCasC `UnknownAttributesException` for `dependencyCheck` tool configuration
-- Fixed container race condition with health-aware `depends_on` chains across all 5 services
-- Fixed Memcached blind healthcheck on Alpine — pure bash `/dev/tcp` probe with no `nc` binary
+| Tool | Gate Type |
+|------|-----------|
+| OWASP Dependency-Check | Hard blocker — `failedTotalCritical: 0` |
+| SonarQube / SonarCloud | Hard blocker — quality gate must pass |
+| Trivy (FS + Config + Image) | CVE scanning with SARIF → GitHub Security |
+| TruffleHog | Secrets scanning — blocks on any finding |
+| Checkov + tfsec + Kube-score | IaC misconfig blocking before deployment |
+| AWS SSM + External Secrets Operator | Zero plaintext credentials in code or config |
+
+![Strata-Ops Architecture](./assets/strarops.svg)
+
+`AWS` `Terraform` `Ansible` `Jenkins JCasC` `GitHub Actions` `CodePipeline` `ECS Fargate` `EKS` `Helm` `ArgoCD` `SonarCloud` `Trivy` `OWASP` `TruffleHog` `Datadog APM` `Prometheus` `Grafana`
 
 ---
 
-## Other Projects
+### 2. Vulnera — Cloud-Native Security Platform · Huawei Cloud 🏆
 
-### Conduit — AWS ECS GitOps CI/CD Engine
-**[→ View on GitHub](https://github.com/amramer101/hprofile-actions)**
+**[→ View on GitHub](https://github.com/amramer101/Vulnera-Azure)** &nbsp; ![Winner](https://img.shields.io/badge/Spark_Infinity-1st_Place-gold?style=flat-square)
 
-`GitHub Actions` `ECS Fargate` `ECR` `RDS Aurora` `SonarCloud` `ALB`
+DevSecOps platform on Huawei Cloud for supply chain vulnerability aggregation. Led cloud & DevOps architecture for a 5-person team. Zero-trust traffic architecture: **CDN → WAF → ELB → APIG → CCE**. CodeArts CI/CD for Rust-based microservices. ModelArts AI threat analysis with RDS PostgreSQL persistence.
 
-Production-grade GitOps pipeline for a Java Spring social platform. 3-stage pipeline (Test → Build → Deploy) with SonarCloud SAST blocking on quality gate failure. Docker images versioned by git run number in ECR. Zero-downtime rolling updates on ECS Fargate with RDS Aurora in private subnets, security-group restricted.
+**Key Results:** 99.9% uptime · 85% faster release cycles · 40% operational cost reduction
 
----
+![Vulnera Architecture](./assets/Picture.png)
 
-### Vulnera — Cloud-Native Security on Huawei Cloud
-**[→ View on GitHub](https://github.com/amramer101/Vulnera-Azure)**
-
-`Kubernetes CCE` `CodeArts CI/CD` `ModelArts` `L7 Load Balancing` `RDS PostgreSQL`
-
-DevSecOps platform on Huawei Cloud for supply chain vulnerability aggregation. 3-node Kubernetes cluster with L7 load balancing. 85% faster release cycles via automated pipeline. ModelArts AI threat analysis with RDS PostgreSQL persistence. IAM access controls cutting operational costs by 40%. **🏆 Winning project — Spark Infinity Competition 2025.**
+`Huawei Cloud` `Kubernetes CCE` `CodeArts CI/CD` `ModelArts AI` `WAF` `RDS PostgreSQL` `Zero-Trust` `Rust` `CloudEye`
 
 ---
 
-### FinOps Sentinel — Serverless Cost Governance on Azure
+### 3. FinOps Sentinel — Serverless Cost Governance · Azure
+
 **[→ View on GitHub](https://github.com/amramer101/Azure-FinOps-Sentinel)**
+
+Automated FinOps governance engine that hunts and eliminates cloud waste. Scans every 6 hours for idle VMs, unattached disks, and orphaned IPs. Zero-credential drift via Managed Identity — no service principals. Automated HTML reports delivered via Logic Apps in under 3 minutes.
+
+**Key Results:** $2,000+/mo waste identified · 50+ resources flagged in week one · 8 hrs/mo manual audits eliminated
+
+![FinOps Sentinel Architecture](./assets/finopss.png)
 
 `Azure Functions` `Logic Apps` `Terraform` `Managed Identity` `Python`
 
-Automated FinOps governance engine that hunts and eliminates cloud waste. Scans every 6 hours for idle VMs, unattached disks, and orphaned IPs. $2,000+/month waste identified across 50+ flagged resources in week one. 100% cost attribution via Terraform tagging policies. Zero-credential drift via Managed Identity — no service principals. Automated HTML reports delivered via Logic Apps in under 3 minutes.
+---
+
+### 4. Bravo6 — Serverless Attack Surface Management · AWS
+
+**[→ View on GitHub](https://github.com/amramer101/Bravo6)**
+
+Production-grade, cloud-native security reconnaissance platform for External Security Posture Management. Built entirely on AWS serverless architecture — API Gateway + WAF → Lambda → Step Functions parallel execution → S3 secure report delivery. Zero infrastructure overhead, zero idle costs.
+
+**Key Results:**
+
+| Metric | Traditional | Bravo6 |
+|--------|-------------|--------|
+| Scan duration | 45–60 sec | 5–8 sec (85% faster) |
+| Infrastructure cost | $2,000+/mo | $0–50/mo (98% reduction) |
+| Concurrent scans | 1–5 | 1,000+ (200× scalability) |
+| Deployment time | 2–4 hours | < 5 minutes |
+
+![Bravo6 Architecture](./assets/bravo.png)
+
+`AWS Lambda` `Step Functions` `API Gateway` `WAF` `DynamoDB` `S3` `SES` `CloudWatch` `Amplify` `Python`
 
 ---
 
-### CloudDrop — Enterprise Serverless File Sharing on AWS
+### 5. CloudDrop — Enterprise Serverless File Sharing · AWS
+
 **[→ View on GitHub](https://github.com/amramer101/-CloudDrop)**
 
-`AWS Lambda` `API Gateway` `S3` `CloudFront` `Amplify` `GitHub Actions` `ECR` `Docker`
+Production-ready serverless file-sharing platform on AWS. CloudFront CDN with 400+ edge locations. End-to-end AES-256 + TLS 1.3 encryption. GitHub Actions CI/CD pipeline cutting deployment time from 45 min to 7 min. Zero-downtime blue-green deployments.
 
-Production-ready serverless file-sharing platform on AWS. CloudFront CDN with 400+ edge locations. End-to-end AES-256 + TLS 1.3 encryption. GitHub Actions CI/CD pipeline cutting deployment time from 45 min to 7 min (85% faster). 99.5% uptime with 20% latency reduction. Zero-downtime blue-green deployments.
+**Key Results:** 85% faster deployments · 99.5% uptime · 20% latency reduction
+
+![CloudDrop Architecture](./assets/drop.png)
+
+`AWS Lambda` `API Gateway` `S3` `CloudFront` `Amplify` `GitHub Actions` `Docker`
+
+---
+
+### 6. NexusFlow — AI-Powered Supply Chain Platform · Huawei Cloud
+
+AI-driven supply chain platform on Huawei Cloud. Real-time data ingestion via API Gateway, AI forecasting via ModelArts reducing stockouts and overstock by 25%, end-to-end OBS encryption, RBAC controls, and dynamic autoscaling supporting 1,000+ concurrent users.
+
+**Key Results:** 99.95% availability · 25% stockout reduction · 20% cost reduction · 1,000+ concurrent users
+
+![NexusFlow Architecture](./assets/flow.jpeg)
+
+`Huawei Cloud` `ECS` `ModelArts` `API Gateway` `WAF` `RDS` `OBS` `Python` `Docker` `CI/CD`
 
 ---
 
@@ -136,13 +155,13 @@ Production-ready serverless file-sharing platform on AWS. CloudFront CDN with 40
 
 **Cloud:** AWS · Azure · GCP · Huawei Cloud
 
-**IaC & Automation:** Terraform · Ansible · Bash · Python · PowerShell
+**IaC & Automation:** Terraform · Ansible · Helm · ArgoCD · Bash · Python
 
-**CI/CD & DevSecOps:** Jenkins JCasC · GitHub Actions · AWS CodePipeline · SonarQube · SonarCloud · OWASP Dependency-Check · tfsec · TruffleHog · Trivy · GitHub Advanced Security (SARIF)
+**CI/CD & DevSecOps:** Jenkins JCasC · GitHub Actions · AWS CodePipeline · GitLab CI · SonarQube · SonarCloud · OWASP · Trivy · TruffleHog · Checkov · tfsec · Kube-score · SARIF · GitHub Advanced Security
 
-**Containers & Orchestration:** Docker · Docker Compose · Kubernetes · Helm · ECS Fargate
+**Containers & Orchestration:** Docker · Docker Compose · Kubernetes (EKS / AKS / CCE) · ECS Fargate · Helm
 
-**Observability & Security:** Prometheus · Grafana · Datadog APM · CloudWatch · AWS SSM · Azure Key Vault · Firelens (Fluent Bit)
+**Observability:** Datadog APM · Prometheus · Grafana · CloudWatch · Firelens (Fluent Bit)
 
 **Managed Services:** RDS · ElastiCache · Amazon MQ · Elastic Beanstalk · AWS Lambda · Azure Functions
 
@@ -154,7 +173,16 @@ Production-ready serverless file-sharing platform on AWS. CloudFront CDN with 40
 |---|---|---|---|
 | ☁️ | AWS Certified Solutions Architect – Associate (SAA-C03) | Amazon Web Services | 2026 |
 | 🔵 | Azure Administrator Associate (AZ-104) | Microsoft | 2025 |
-| 🔒 | Security, Compliance, and Identity (SC-900) | Microsoft | 2025 |
+| 🔒 | Security, Compliance, and Identity Fundamentals (SC-900) | Microsoft | 2025 |
 | 🛡️ | Junior Cybersecurity Analyst – CyberOps | Cisco | 2024 |
 | 🔐 | Certified in Cybersecurity (CC) | ISC2 | 2024 |
-| ⚙️ | DevOps Path: Jenkins · Ansible · Terraform · Docker · K8s | KodeKloud | 2024 |
+
+---
+
+## Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amrmamer-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/amrmamer)
+[![Email](https://img.shields.io/badge/Email-amr.m.amer11@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:amr.m.amer11@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-wh0ami.netlify.app-000000?style=flat-square&logo=netlify)](https://wh0ami.netlify.app)
+
+📍 Alexandria, Egypt &nbsp;·&nbsp; Open to **Summer 2026 internships** in DevSecOps · Cloud Engineering · Platform Engineering &nbsp;·&nbsp; Available: Cairo · Alexandria · Remote · EU on-site (Learning Agreement)
